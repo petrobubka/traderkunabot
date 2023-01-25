@@ -36,6 +36,7 @@ def minusprice(name):
         return client.tickers(name)[0][1]
     except ValueError:
         return minusprice(name)
+
 def plusprice(name):
     try:
         return client.tickers(name)[0][3]

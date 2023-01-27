@@ -139,4 +139,4 @@ async def load_number(message, state: FSMContext):
 
 if __name__ == "__main__":
     executor.start_polling(dp, timeout=20000000, skip_updates=True)
-
+ 

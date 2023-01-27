@@ -8,8 +8,6 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import Bot, Dispatcher, executor
 from aiogram import types
 
-
-#client = kuna.KunaAPI(public_key='iK1EyxOtbLEqhvVubXY2Hl35dk0xz94XTexFZRCg', private_key='tasWxAy8uz0N3Ra5Av64iWMZkfADVulxl3Q9VqEc')
 client = kuna.KunaAPI(public_key='', private_key='')
 logging.basicConfig(level=logging.INFO)
 bot = Bot('')
